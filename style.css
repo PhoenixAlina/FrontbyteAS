@@ -331,6 +331,7 @@ h3 {
 .projects__item:nth-child(2n+2) {
     margin-right: 20px;
 }
+
 .projects__image--card {
     position: relative;
     margin-bottom: 20px;
@@ -378,4 +379,34 @@ h3 {
     font-size: 30px;
     font-weight: 300;
     max-width: 440px;
+}
+
+/* ======================our-team====================== */
+
+.container__our-team {
+    position: relative;
+}
+
+.our-team__card {
+    position: absolute;
+    background-color: #f4f4f7;
+    max-width: 380px;
+    min-height: 380px;
+    right: 200px;
+    top: 200px;
+    padding: 40px 40px 110px 40px;
+}
+
+.our-team__title {
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.54;
+  letter-spacing: 1.73px;
+}
+
+.our-team__description {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.33;
 }
