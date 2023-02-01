@@ -325,7 +325,7 @@ h3 {
 .projects__item:nth-child(n+2) {
     max-width: 580px;
     min-height: 570px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .projects__item:nth-child(2n+2) {
@@ -385,6 +385,7 @@ h3 {
 
 .container__our-team {
     position: relative;
+    margin-bottom: 100px;
 }
 
 .our-team__card {
@@ -409,4 +410,113 @@ h3 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.33;
+}
+
+/* ==================events================== */
+
+.events__title {
+    padding-left: 200px;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.75px;
+    color: #2d2d42;
+    margin-bottom: 25px;
+
+}
+
+.events__description {
+    padding-left: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.33;
+    color: #2d2d42;
+    margin-bottom: 90px;    
+}
+
+.events__image {
+    padding-left: 200px;
+}
+
+.events__block {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.events__press {
+    position: absolute;
+    max-width: 400px;
+    min-height: 380px;
+    background-color: #f4f4f7;
+    left: 0;
+    bottom: 0;
+}
+
+.eventcard__title {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.54;
+    letter-spacing: 1.73px;
+    margin-bottom: 30px;
+    color: #2d2d42;
+    padding: 40px 60px 0 0;
+}
+
+.eventcard__description {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.33;
+    margin-bottom: 55px;
+    color: #2d2d42;
+    padding-right: 60px;
+}
+
+.eventcard__icon>img {
+    margin-bottom: 48px;
+}
+
+.eventcard__button {
+    height: 0.1em;
+    width: 65px;
+    background-color: #2d2d42;
+    border-style: none;
+    opacity: 0.6;
+}
+.eventcard__button:not(:last-child) {
+    margin-right: 8px;
+}
+.events__news__title {
+    font-size: 13px;
+    font-weight: 900;  
+    line-height: 1.54;
+    letter-spacing: 1.73px;
+    margin-bottom: 50px;
+}
+.events__news__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.events__news__item {
+    max-width: 280px;
+    min-height: 170px;
+}
+
+.events__news__item:not(:last-child) {
+    margin-right: 120px;
+}
+.event__news__description {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #2d2d42;
+}
+
+.events__news__date {
+    color: #93a4a9;
+}
+
+.events__news {
+    margin-bottom: 100px;
 }
