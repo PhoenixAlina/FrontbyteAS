@@ -36,7 +36,9 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
+ul li {
+    list-style: none;
+}
 img {
     max-width: 100%;
 }
@@ -49,7 +51,6 @@ body {
 .container {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 /* ==================================HEADER===============================================*/
@@ -185,6 +186,7 @@ body {
     background-color: #fff;
     padding-left: 200px;
     padding-bottom: 137px;
+    margin-bottom: 100px;
 }
 
 .services__title {
@@ -292,7 +294,88 @@ body {
     top: 15px;
     left: -60px;
 }
+/* ================================projects========================== */
+h3 {
+    text-transform: uppercase;
+}
 
+.projects__title {
+    padding-left: 200px;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
 
+.projects__description {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.33;
+    padding-left: 200px;
+    margin-bottom: 90px;
+    color: #2d2d42;
+} 
 
+ .projects__list { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+}
+
+.projects__item:nth-child(n+2) {
+    max-width: 580px;
+    min-height: 570px;
+    margin-bottom: 70px;
+}
+
+.projects__item:nth-child(2n+2) {
+    margin-right: 20px;
+}
+.projects__image--card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.projects__gamecard {
+    position: absolute;
+    background-color: #64cae1;
+    width: 380px;
+    height: 380px;
+    top: 200px;
+    left: 200px;
+    color: #f4f4f7;
+    padding: 40px;
+}
+
+.gamecard__title {
+  margin-bottom: 40px;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.54;
+  letter-spacing: 1.73px;
+}
+
+.gamecard__description {
+    font-size: 30px;
+  font-weight: 300;
+  line-height: 1.33;
+}
+
+.projects__view {
+    margin-bottom: 40px;
+}
+
+.card__title {
+    margin-bottom: 30px;
+    color: #2d2d42;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1.73px;
+}
+
+.card__description {
+    color:#2d2d42;
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 440px;
+}
