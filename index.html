@@ -5,74 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous|use-credentials">
+    <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous|use-credentials">
+    <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous|use-credentials">
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
     <title>Frontbyte</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
+    <header class="header">
+            <div class="container">
                 <div class="header__wrap">
-            <a href="#" class="image__logo">
-                <img src="img/img-logo-desktop-light.png" alt="logo">
+            <a href="#" class="header__logo">
+                <img src="img/img-logo-desktop-light.png" alt="Frontbyte">
             </a>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
-                    <li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
-                    <li class="menu__item"><a href="#projects" class="menu__link">Projects</a></li>
+                    <li class="menu__item"><a href="#service" class="menu__link">Services</a></li>
+                    <li class="menu__item"><a href="#project" class="menu__link">Projects</a></li>
                     <li class="menu__item"><a href="#our-team" class="menu__link">Our team</a></li>
-                    <li class="menu__item"><a href="#events" class="menu__link">Events</a></li>
-                    <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+                    <li class="menu__item"><a href="#event" class="menu__link">Events</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contacts</a></li>
                 </ul>
             </nav>
-            <div class="header__right">
-                <button class="button__lang">No</button>
-                <button class="button__lang button__lang--active">En</button>
-                <button class="button__lang">Ru</button>
+            <div class="button__right">
+                <button type="button" class="button__lang">No</button>
+                <button type="button" class="button__lang button__lang--active">En</button>
+                <button type="button" class="button__lang">Ru</button>
             </div>
         </div>
-            <div class="description">
-                <h1 class="description__title">
-                    We&nbsp;provide digital services and develop our own products in&nbsp;sports and iHealth industry
-                </h1>
-                <p class="description__paragraf">We&nbsp;put technology and sport together to&nbsp;create the world&rsquo;s most efficient 
-                    and popular sports apps.</p>
-                </div>
-                <a href="#" class="button button__theme">Drop us a line</a>
-            </div>
-        </div>
+    </div>
 </header>
-<main>
-<section class="services">
-    <div class="container">
-        <div class="services__style">
-            <h2 class="services__title">We&nbsp;combine high level of professionalism and individual approach</h2>
-                <p class="services__description">We&nbsp;have subject domain expertise in&nbsp;various aspects</p>
-                <ul class="services__list">
-                    <li class="services__item">
-                        <picture class="services__item--icon">
-                            <img src="img/ic-project.svg" alt="icon" class="services__image">
+    <main>
+        <section class="description">
+            <div class="container">
+                <div class="description__view">
+                    <h1 class="description__title">
+                        We&nbsp;provide digital services and develop our own products in&nbsp;sports and iHealth industry
+                    </h1>
+                    <p class="description__paragraf">We&nbsp;put technology and sport together to&nbsp;create the world&rsquo;s most efficient 
+                    and popular sports apps.</p>
+                    <a href="#" class="button__theme">Drop&nbsp;us a&nbsp;line</a>
+                </div>
+        </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <div class="service__style">
+                    <h2 class="service__title">We&nbsp;combine high level of professionalism and individual approach</h2>
+                        <p class="service__description">We&nbsp;have subject domain expertise in&nbsp;various aspects</p>
+                <ul class="service__list">
+                    <li class="service__item">
+                        <picture class="service__item--icon">
+                            <img src="img/ic-project.svg" alt="icon" class="service__image">
                         </picture>
-                        <p class="services__item--description">Project management for simple and complex projects</p>
+                        <p class="service__item--description">Project management for simple and complex projects</p>
                     </li>
-                    <li class="services__item">
-                        
-                        <picture class="services__item--icon services__hire">
-                            <img src="img/ic-hire.svg" alt="ic-hire" class="services__image">
+                    <li class="service__item"> 
+                        <picture class="service__item--icon services__hire">
+                            <img src="img/ic-hire.svg" alt="ic-hire" class="service__image">
                         </picture>
-                        <p class="services__item--description">Management for hire</p>
+                        <p class="service__item--description">Management for hire</p>
                     </li>
-                    <li class="services__item">
-                        
-                        <picture class="services__item--icon services__digital">
-                            <img src="img/ic-digital.svg" alt="digital" class="services__image">
+                    <li class="service__item">
+                        <picture class="service__item--icon services__digital">
+                            <img src="img/ic-digital.svg" alt="digital" class="service__image">
                         </picture>
-                        <p class="services__item--description">Digital transformation</p>
+                        <p class="service__item--description">Digital transformation</p>
                     </li>
                 </ul>
                 <div class="ability">
@@ -89,52 +89,64 @@
                         <li class="ability__item">UX/UI concepts and design</li>
                         <li class="ability__item">Video and motion design</li>
                     </ul>
-                </div>
-                
+                </div>      
         </div>
     </div>
 </section>
-<section class="projects">
+<section class="project">
     <div class="container">
-        <h2 class="projects__title">Our Work</h2>
-        <p class="projects__description">We&nbsp;change the way businesses and industries operate.</p>
-        <ul class="projects__list">
-            <li class="projects__item projects__image--card">
-                <picture class="projects__image">
-                    <img src="img/vid-birdieeyes.jpg" alt="Frontbyte project" class="projects__view--m">
+        <h2 class="project__title">Our Work</h2>
+        <p class="project__description">We&nbsp;change the way businesses and industries operate.</p>
+        <ul class="project__list">
+            <li class="project__item project__image--card">
+                <picture class="project__image--m">
+                    <source srcset="img/vid-birdieeyes-min.webp" type="image/webp">
+                    <img class="project__view--m" src="img/vid-birdieeyes-min.jpg" alt="Frontbyte project">
                 </picture>
-                <div class="projects__gamecard">
+                <div class="project__gamecard">
                     <h3 class="gamecard__title">BirdieEyes</h3>
-                    <p class="gamecard__description">We have introduced AR technology into one of the most traditional games and made it even more interesting</p>
+                    <a class="gamecard__description">We have introduced AR technology into one of the most traditional games and made it even more interesting</a>
                 </div>
             </li>
-            <li class="projects__item">
-                <picture class="projects__image">
-                    <img src="img/upsport.jpg" alt="Frontbyte project" class="projects__view">
+            <li class="project__item">
+                <picture class="project__image">
+                    <source srcset="img/upsport.webp" type="image/webp">
+                    <img class="project__view" src="img/upsport.jpg" alt="Frontbyte project">
                 </picture>
+                <div class="project__info">
                 <h3 class="card__title">upsport</h3>
-                <p class="card__description">Live communication platform that has changed the game for sport clubs, parents and their kids</p>
+                <a class="card__description">Live communication platform that has changed the game for sport clubs, parents and their kids</a>
+            </div>
             </li>
-            <li class="projects__item">
-                <picture class="projects__image">
-                    <img src="img/xland.jpg" alt="Frontbyte project" class="projects__view">
+            <li class="project__item">
+                <picture class="project__image">
+                    <source srcset="img/xland-min.webp" type="image/webp">
+                    <img class="project__view" src="img/xland-min.jpg" alt="Frontbyte project">
                 </picture>
+                <div class="project__info">
                 <h3 class="card__title">XLand</h3>
-                <p class="card__description">Digital presence for the first indoor activity park in&nbsp;Norway</p>
+                <a class="card__description">Digital presence for the first indoor activity park in&nbsp;Norway</a>
+            </div>
             </li>
-            <li class="projects__item">
-                <picture class="projects__image">
-                    <img src="img/phonero.jpg" alt="Frontbyte project" class="projects__view">
+            <li class="project__item">
+                <picture class="project__image">
+                    <source srcset="img/phonero-min.webp" type="image/webp">
+                    <img class="project__view" src="img/phonero-min.jpg" alt="Frontbyte project">
                 </picture>
+                <div class="project__info">
                 <h3 class="card__title">phonero</h3>
-                <p class="card__description">Interfaces for the cloud based switchboard applications as&nbsp;well as&nbsp;various desktop and mobile applications</p>
+                <a class="card__description">Interfaces for the cloud based switchboard applications as&nbsp;well as&nbsp;various desktop and mobile applications</a>
+            </div>
             </li>
-            <li class="projects__item">
-                <picture class="projects__image">
-                    <img src="img/kongsberg.jpg" alt="Frontbyte project" class="projects__view">
+            <li class="project__item">
+                <picture class="project__image">
+                    <source srcset="img/kongsberg-min.webp" type="image/webp">
+                    <img class="project__view" src="img/kongsberg-min.jpg" alt="Frontbyte project">
                 </picture>
+                <div class="project__info">
                 <h3 class="card__title">Kongsberg Group</h3>
-                <p class="card__description">Groundbreaking defence and aerospace systems</p>
+                <a class="card__description">Groundbreaking defence and aerospace systems</a>
+            </div>
             </li>
         </ul>
     </div>
@@ -143,31 +155,33 @@
     <div class="container">
         <div class="container__our-team">
         <picture class="our-team__image">
-            <img src="img/team-home.jpg" alt="our-team">
+            <source srcset="img/team-home-min.webp" type="image/webp">
+            <img src="img/team-home-min.jpg" alt="our-team">
         </picture>
         <div class="our-team__card">
             <h3 class="our-team__title">our team</h3>
-            <p class="our-team__description">We&nbsp;are united by&nbsp;our passion to&nbsp;create unique and efficient digital products</p>
+            <a class="our-team__description">We&nbsp;are united by&nbsp;our passion to&nbsp;create unique and efficient digital products</a>
         </div>
     </div>
     </div>
 </section>
-<section class="events">
+<section class="event">
     <div class="container">
-        <h2 class="events__title">Inside Frontbyte</h2>
-        <p class="events__description">We change the way businesses and industries operate.</p>
-        <div class="events__block">
-            <picture class="events__image">
-                <img src="img/inside-press.jpg" alt="Frontbyte events">
+        <h2 class="event__title">Inside Frontbyte</h2>
+        <p class="event__description">We change the way businesses and industries operate.</p>
+        <div class="event__block">
+            <picture class="event__image">
+                <source srcset="img/inside-press-min.webp" type="image/webp">
+                <img src="img/inside-press-min.jpg" alt="Frontbyte events">
             </picture>
-            <div class="events__press">
+            <div class="event__press">
                 <h3 class="eventcard__title">Press about us</h3>
-                <p class="eventcard__description">AR&nbsp;golf platform BirdieEyes raises $300 million at&nbsp;$2.7 billion valuation</p>
+                <a class="eventcard__description">AR&nbsp;golf platform BirdieEyes raises $300 million at&nbsp;$2.7 billion valuation</a>
                 <picture class="eventcard__icon">
                     <img src="img/svg-TS-image.svg" alt="icon">
                 </picture>
             <div class="block__button">
-                <button class="eventcard__button"></button>
+                <button class="eventcard__button eventcard__button--active"></button>
                 <button class="eventcard__button"></button>
                 <button class="eventcard__button"></button>
                 <button class="eventcard__button"></button>
@@ -175,28 +189,78 @@
             </div>
             </div>
         </div>
-        <div class="events__news">
-            <h3 class="events__news__title">Latest news</h3>
-            <ul class="events__news__list">
-                <li class="events__news__item">
-                    <p class="event__news__description">How to use email marketing to connect with your users</p>
-                    <span class="events__news__date">Dec&nbsp;19, 2018</span>
+        <div class="event__news">
+            <h3 class="event__news__title">Latest news</h3>
+            <ul class="event__news__list">
+                <li class="event__news__item">
+                    <a class="event__news__description">How to use email marketing to connect with your users</a>
+                    <span class="event__news__date">Dec&nbsp;19, 2018</span>
                 </li>
-                <li class="events__news__item">
-                    <p class="event__news__description">How to use email marketing to connect with your users</p>
-                    <span class="events__news__date">Dec&nbsp;19, 2018</span>
+                <li class="event__news__item">
+                    <a class="event__news__description">How to use email marketing to connect with your users</a>
+                    <span class="event__news__date">Dec&nbsp;19, 2018</span>
                 </li>
-                <li class="events__news__item">
-                    <p class="event__news__description">How to use email marketing to connect with your users</p>
-                    <span class="events__news__date">Dec&nbsp;19, 2018</span>
+                <li class="event__news__item">
+                    <a class="event__news__description">How to use email marketing to connect with your users</a>
+                    <span class="event__news__date">Dec&nbsp;19, 2018</span>
                 </li>
             </ul>
         </div>
     </div>
 </section>
 </main>
-<footer>
-
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="map">
+            <picture class="map__image">
+                <img src="img/map.svg">
+            </picture>
+            <span class="map__norway"></span>
+            <span class="map__belarus"></span>
+        </div>
+        <h2 class="footer__title">Contacts</h2>
+        <ul class="social__list">
+        <li class="social__item">
+            <a href="#" class="social__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <path fill="#FFF" fill-rule="evenodd" d="M30 15c0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15C0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15zm-7 .635c0-2.9-1.586-4.251-3.702-4.251-1.708 0-2.47.918-2.898 1.561v.03h-.021c.006-.01.015-.02.02-.03v-1.34h-3.216c.043.887 0 9.448 0 9.448H16.4v-5.276c0-.284.021-.564.106-.765.233-.565.762-1.15 1.65-1.15 1.165 0 1.628.867 1.628 2.137v5.054H23v-5.418zM9.82 7.053C8.719 7.053 8 7.758 8 8.685c0 .907.698 1.632 1.778 1.632h.02c1.121 0 1.82-.725 1.82-1.632-.022-.927-.699-1.632-1.798-1.632zm-1.63 14h3.215v-9.447H8.191v9.447z"/>
+            </svg>
+        </a>
+        </li>
+        <li class="social__item">
+            <a href="#" class="social__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <path fill="#FFF" fill-rule="evenodd" d="M15 30C6.716 30 0 23.284 0 15 0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15zm2.718-15.015l.275-2.815h-2.35v-1.658c0-.621.389-.767.666-.767H18V7.01L15.67 7c-2.586 0-3.174 2.041-3.174 3.345v1.823H11v2.817h1.496V23h3.146v-8.015h2.076z"/>
+                </svg>
+            </a>
+        </li>
+        <li class="social__item">
+            <a href="#" class="social__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <path fill="#FFF" fill-rule="evenodd" d="M30 15c0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15C0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15zM15 7c-2.172 0-2.445.01-3.298.048-.852.04-1.433.174-1.942.372a3.917 3.917 0 0 0-1.417.922A3.927 3.927 0 0 0 7.42 9.76c-.198.51-.333 1.09-.372 1.942C7.01 12.555 7 12.827 7 15s.01 2.445.048 3.298c.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372.854.038 1.126.048 3.299.048s2.444-.01 3.298-.048c.851-.04 1.433-.174 1.942-.372a3.914 3.914 0 0 0 1.417-.923c.445-.445.718-.891.923-1.417.197-.51.332-1.09.372-1.942.038-.853.048-1.125.048-3.298s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.418 3.91 3.91 0 0 0-1.417-.922c-.51-.198-1.092-.333-1.943-.372C17.443 7.01 17.172 7 14.998 7h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.598.28.28.452.547.598.92.11.282.24.705.275 1.486.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485-.145.373-.319.639-.599.919-.28.28-.546.453-.92.598-.28.11-.705.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.232.036-.78.166-1.203.276-1.485.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+            </a>
+        </li>
+    </ul>
+        <p class="footer__description">Our head office is&nbsp;located in&nbsp;Norway.
+            Research and development center is&nbsp;located in&nbsp;Belarus.</p>
+            <div class="location">
+                    <h4 class="location__country">Norway</h4>
+                    <p class="location__name">Kristiansand</p>
+                    <p class="location__address">Vestre strandgate, 23, 4th and 6th floor N-4611</p>
+                    <a class="location__mail" href="mailto:contact@frontbyte.no">contact@frontbyte.no</a>
+                    <a class="location__phone" href="tel:+4741636983" property="telephone">+47&nbsp;416 36&nbsp;983</a>
+                </div>
+                <div class="location">
+                    <h4 class="location__country">Belarus</h4>
+                    <p class="location__name">Minsk</p>
+                    <p class="location__address">Dombrovskaya str., 9, оffice 10.2.2</p>
+                    <a class="location__mail" href="mailto:contact@frontbyte.no">contact@frontbyte.by</a>
+                    <a class="location__phone" href="tel:+375291393336" property="telephone">+375 29 1393336</a>
+                </div>
+            <a href="#" class="button__theme--color">Drop&nbsp;us a&nbsp;line</a>
+            <p class="footer__copyright">© 2008–2018 Frontbyte</p>
+</div>
 </footer>
 </body>
 </html>
